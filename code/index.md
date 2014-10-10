@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About the Theme
+layout: project-index
+title: Code Projects
 tags: [code, tgamblin, Todd, Gamblin, projects, cram, spack]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false

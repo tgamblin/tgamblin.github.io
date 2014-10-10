@@ -1,0 +1,15 @@
+/* Ordered lists from bib2xhtml ==================================== */
+ol {
+  li {
+      @include font-size(14);
+      strong { color: #11458f; }
+      a      { color: #11458f; }
+  }
+}
+
+/* Project list css ==================================== */
+ul.projectlist {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}

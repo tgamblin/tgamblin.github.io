@@ -48,12 +48,3 @@
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
 	@include transition(all .2s ease);
 }
-
-/* Ordered lists from bib2xhtml ==================================== */
-ol {
-  li {
-      @include font-size(14);
-      strong { color: #11458f; }
-      a      { color: #11458f; }
-  }
-}
