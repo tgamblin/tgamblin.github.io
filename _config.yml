@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            tgamblin.github.io
 locale:           en_US
 url:              http://localhost:4000
 
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  name: Todd Gamblin
+  avatar: me-grand-canyon.jpg
+  bio: "Computer Scientist<br/> <a href=\"http://people.llnl.gov/gamblin2\">Lawrence Livermore National Laboratory</a>"
+  email: tgamblin@llnl.gov
+  disqus-shortname: tgamblin
+  twitter: tgamblin
+  facebook: #tgamblin
   google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+    plus: #ToddGamblin
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: tgamblin
+  stackoverflow: 9122/tgamblin
+  linkedin: tgamblin
   instagram: #username
   lastfm: #username
   tumblr: #username

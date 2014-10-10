@@ -1,13 +1,13 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
-- title: Sample Posts
+- title: Posts
   url: /posts/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Code
+  url: /code/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+- title: Publications
+  url: /pubs/
+
+- title: CV
+  url: /cv/
