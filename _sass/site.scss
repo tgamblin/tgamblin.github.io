@@ -1,13 +1,13 @@
 /* Selection ============================================= */
-::-moz-selection { 
-	background-color: lighten($basecolor, 65%); 
-	color: $basecolor; 
-	text-shadow: none; 
-}  	
-::selection { 
-	background-color: lighten($basecolor, 65%); 
-	color: $basecolor; 
-	text-shadow: none; 
+::-moz-selection {
+	background-color: lighten($basecolor, 65%);
+	color: $basecolor;
+	text-shadow: none;
+}
+::selection {
+	background-color: lighten($basecolor, 65%);
+	color: $basecolor;
+	text-shadow: none;
 }
 
 /* Global Classes ======================================== */
@@ -47,4 +47,13 @@
 /* Global Transition ==================================== */
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
 	@include transition(all .2s ease);
+}
+
+/* Ordered lists from bib2xhtml ==================================== */
+ol {
+  li {
+      @include font-size(14);
+      strong { color: #11458f; }
+      a      { color: #11458f; }
+  }
 }
