@@ -4,22 +4,28 @@ title: Curriculum Vitae
 date:
 modified:
 excerpt:
-tags: [cv, todd, gamblin, resume]
+tags: [cv, todd, gamblin, resume, bio, biography]
 image:
   feature: banners/miyajima.jpg
 ---
 
-I came to LLNL in 2008 while still a graduate student at
-[UNC](https://www.unc.edu).  After graduating in 2009, I spent a year
-as a postdoc, and I joined the staff in 2010.  In the past, I've been
-a software developer in Tokyo and an undergraduate at [Williams
-College](http://www.williams.edu).
-
-I'm happy to be here because I get to play a small part in
-accelerating scientific advances.  Supercomputers are used to simulate
-scientific phenomena: everything from
-[earthquakes](http://computation.llnl.gov//research/project-highlights/numerical-methods-boost-modeling-efficiency)
-to [giant lasers](http://computation.llnl.gov/research/mission-support/NIF) to
-the [human heart](http://hpcinnovationcenter.llnl.gov/cardioid-heart-modeling.php).
-
 <i class="fa fa-file-pdf-o"></i> [Download CV](todd-cv.pdf)
+
+### Short Bio
+
+Todd is a computer scientist in the Center for Applied Scientific
+Computing at Lawrence Livermore National Laboratory. His research
+focuses on scalable tools for measuring, analyzing, and visualizing
+performance data from massively parallel applications.  Todd is also
+involved with many production projects at LLNL.  He works with
+Livermore Computing's Development Environment Group to build tools
+that allow users to deploy, run, debug, and optimize their software
+for machines with million-way concurrency.
+
+Todd received his Ph.D. in computer science from the University of
+North Carolina at Chapel Hill in 2009.  His dissertation investigated
+parallel methods for compressing and sampling performance measurements
+from hundreds of thousands of concurrent processors. He received his
+B.A. in Computer Science and Japanese from Williams College in
+2002. He has also worked as a software developer in Tokyo and held
+research internships at the University of Tokyo and IBM Research.
