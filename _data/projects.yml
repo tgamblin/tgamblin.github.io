@@ -1,8 +1,13 @@
 - title: Spack
   logo:
-  link:
+  docs: http://scalability-llnl.github.io/spack
   github: https://github.com/scalability-llnl/spack
-  content: Spack is a simple, flexible system for building and deploying HPC software.
+  content: >
+
+    A flexible package manager designed to support multiple versions,
+    configurations, platforms, and compilers.  Provides a simple
+    expression langauge to simplify the task of configuring HPC
+    software.
 
 - title: Cram
   logo: cram-logo-square.png
@@ -10,9 +15,10 @@
   github: http://github.com/scalability-llnl/cram
   download:
   content: >
-    Cram lets you run many small MPI jobs within a single, large MPI
+
+    Cram runs many small MPI jobs within a single, large MPI
     job by virtualizing its MPI operations. Cram has been used to run
-    1.5 million concurrent MPI jobs on LLNL Sequoia.
+    1.5 million concurrent MPI jobs on LLNL's Sequoia machine.
 
 - title: Rubik
   logo: rubik.png
@@ -21,22 +27,24 @@
   docs: https://computation-rnd.llnl.gov/performance-analysis-through-visualization/software/rubik/docs
   download:
   content: >
-    Rubik makes it easy to lay out MPI tasks on arbitrary-dimensional
-    torus and mesh networks using structured transformations.  It also
-    provides visualization tools for 3D task layouts.
+
+    Rubik generates MPI task mapping files for structured applications
+    running on machines with torus or mesh networks.  It applies structured
+    transforamtions to an application topology to generate the mappings.
 
 - title: Muster
   logo: muster.png
   link:
   github: https://github.com/scalability-llnl/muster
-  docs:
+  docs: https://scalability-llnl.github.io/muster
   download:
   content: >
+
     Parallel K-medoids clustering library, used in
-    performance/debugging tools. Implements PAM, CLARA, the <a
+    performance anddebugging tools. Implements PAM, CLARA, the <a
     href="http://wwwx.cs.unc.edu/~tgamblin/pubs/scalable-cluster-ics10.pdf">CAPEK</a>
     parallel clustering algorithm, and an MPI-parallel Bayesian
-    Information Criterion (BIC).
+    Information Criterion (BIC) implementation.
 
 - title: wrap.py
   logo:
@@ -45,9 +53,12 @@
   docs: https://github.com/scalability-llnl/wrap/blob/master/examples/tutorial.w
   download:
   content: >
+
     Simple language for generating libraries of <a
     href="http://www.netlib.org/utk/papers/mpi-book/node182.html">PMPI</a>
-    wrapper functions. Generates C and Fortran bindings.
+    wrapper functions. Based on the profiling wrapper generator in <a
+    href="http://www.mcs.anl.gov/research/projects/perfvis/download/">MPE</a>
+    but with more features. Generates C and Fortran bindings.
 
 - title: Callpath
   logo:
@@ -56,7 +67,9 @@
   docs:
   download:
   content: >
-    Library for analyzing stack traces scalably in distributed applications.
+
+    Library for representing, transferring, and analyzing stack traces
+    scalably in distributed applications.
 
 - title: Nami
   logo:
@@ -65,7 +78,10 @@
   docs:
   download:
   content: >
-    Parallel wavelet transform and compression library.
+
+    Parallel wavelet transform and <a
+    href="http://en.wikipedia.org/wiki/Embedded_Zerotrees_of_Wavelet_transforms">EZW</a>
+    compression library.
 
 - title: perf-dump
   logo:
@@ -74,5 +90,6 @@
   docs:
   download:
   content: >
+
     Records per-process, per-timestep PAPI performance counter
     values. Saves them in an HDF5 file.

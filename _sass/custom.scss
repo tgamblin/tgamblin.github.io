@@ -8,9 +8,16 @@ ol {
 
 /* Project list css ==================================== */
 ul.projectlist {
+  padding: 0pt;
+
   li {
+    border-style: solid;
+    border-color: grey;
+    border-width: 0pt 0pt 0pt 1pt;
+
     list-style-type: none;
-    padding: 0pt;
+
+    padding: 0pt 0pt 0pt 6pt;
     margin: 0pt;
 
     h3 { margin: 20pt 0pt 5pt 0pt; }
