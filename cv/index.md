@@ -11,7 +11,7 @@ image:
 
 I came to LLNL in 2008 while still a graduate student at
 [UNC](https://www.unc.edu).  After graduating in 2009, I spent a year
-as a postdoc, and I became staff in 2010.  In past lives, I've been a
+as a postdoc, and I became staff in 2010.  In the past, I've been a
 software developer in Tokyo and an undergraduate at [Williams
 College](http://www.williams.edu).
 
