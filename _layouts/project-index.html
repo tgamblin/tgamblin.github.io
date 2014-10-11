@@ -37,20 +37,35 @@
     <div class="article-wrap">
       {{ content }}
     </div><!-- /.article-wrap -->
+
     <ul class="projectlist">
-      {% for project in site.data.projects %}
-      <li>
-        <h3>{% if project.link %}<a href="{{ project.link }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
-        {{ project.content }}
-        {% if project.github or project.categories %}
-        <ul class="metadata">
-          {% if project.github %}<li><a href="{{ project.github }}">GitHub</a></li>{% endif %}
-          <li>{{ project.categories | join:', ' }}</li>
-        </ul>
-        {% endif %}
-      </li>
-      {% endfor %}
+        {% for project in site.data.projects %}
+        <li>
+          <h3>{{ project.title }}</h3>
+
+          {% if project.logo %}
+            <img src="{{ site.url }}/images/{{ project.logo }}"/>
+          {% endif %}
+
+          {{ project.content }}<br/>
+
+          {% if project.github %}
+            <i class="fa fa-git-square"></i>
+            <a href="{{ project.github }}"><small>GitHub</small></a>&nbsp;
+          {% endif %}
+          {% if project.docs %}
+            <i class="fa fa-book"></i>
+            <a href="{{ project.docs }}"><small>Docs</small></a>&nbsp;
+          {% endif %}
+          {% if project.link %}
+            <i class="fa fa-external-link-square"></i>
+            <a href="{{ project.github }}"><small>Site</small></a>&nbsp;
+          {% endif %}
+        </li>
+        {% endfor %}
     </ul>
+
+
   </article>
 </div><!-- /#index -->
 

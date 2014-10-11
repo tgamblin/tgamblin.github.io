@@ -3,13 +3,26 @@ ol {
   li {
       @include font-size(14);
       strong { color: #11458f; }
-      a      { color: #11458f; }
   }
 }
 
 /* Project list css ==================================== */
 ul.projectlist {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  li {
+    list-style-type: none;
+    padding: 0pt;
+    margin: 0pt;
+
+    h3 { margin: 20pt 0pt 5pt 0pt; }
+
+    i { margin-top: 5pt; }
+
+    img {
+      padding: 5pt;
+      margin: 0px;
+      float: right;
+      vertical-align: middle;
+      max-width: 96px;
+    }
+  }
 }

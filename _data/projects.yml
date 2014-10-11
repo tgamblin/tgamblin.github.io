@@ -1,16 +1,78 @@
 - title: Spack
-  link: https://github.com/scalability-llnl/spack
-  categories:
-  - Jekyll
-  - Dummy
-  - Project
+  logo:
+  link:
+  github: https://github.com/scalability-llnl/spack
   content: Spack is a simple, flexible system for building and deploying HPC software.
 
-- title: "Jekyll projectlist plug-in"
+- title: Cram
+  logo: cram-logo-square.png
+  link: https://computation-rnd.llnl.gov/parallel-software-development-tools/cram.php
+  github: http://github.com/scalability-llnl/cram
+  download:
+  content: >
+    Cram lets you run many small MPI jobs within a single, large MPI
+    job by virtualizing its MPI operations. Cram has been used to run
+    1.5 million concurrent MPI jobs on LLNL Sequoia.
+
+- title: Rubik
+  logo: rubik.png
   link:
-  download: https://github.com/fhemberger/jekyll-projectlist/zipball/master
-  github: http://github.com/fhemberger/jekyll-projectlist
-  categories:
-  - Jekyll
-  - Ruby
-  content: This plug-in introduces the new tag `projectlist` to Jekyll. It loads all files in the `_projects` directory and renders the entries into a single tag response, thus avoiding the creation of separate posts.
+  github: https://github.com/scalability-llnl/rubik
+  docs: https://computation-rnd.llnl.gov/performance-analysis-through-visualization/software/rubik/docs
+  download:
+  content: >
+    Rubik makes it easy to lay out MPI tasks on arbitrary-dimensional
+    torus and mesh networks using structured transformations.  It also
+    provides visualization tools for 3D task layouts.
+
+- title: Muster
+  logo: muster.png
+  link:
+  github: https://github.com/scalability-llnl/muster
+  docs:
+  download:
+  content: >
+    Parallel K-medoids clustering library, used in
+    performance/debugging tools. Implements PAM, CLARA, the <a
+    href="http://wwwx.cs.unc.edu/~tgamblin/pubs/scalable-cluster-ics10.pdf">CAPEK</a>
+    parallel clustering algorithm, and an MPI-parallel Bayesian
+    Information Criterion (BIC).
+
+- title: wrap.py
+  logo:
+  link:
+  github: https://github.com/scalability-llnl/wrap
+  docs: https://github.com/scalability-llnl/wrap/blob/master/examples/tutorial.w
+  download:
+  content: >
+    Simple language for generating libraries of <a
+    href="http://www.netlib.org/utk/papers/mpi-book/node182.html">PMPI</a>
+    wrapper functions. Generates C and Fortran bindings.
+
+- title: Callpath
+  logo:
+  link:
+  github: https://github.com/scalability-llnl/callpath
+  docs:
+  download:
+  content: >
+    Library for analyzing stack traces scalably in distributed applications.
+
+- title: Nami
+  logo:
+  link:
+  github: https://github.com/scalability-llnl/nami
+  docs:
+  download:
+  content: >
+    Parallel wavelet transform and compression library.
+
+- title: perf-dump
+  logo:
+  link:
+  github: https://github.com/scalability-llnl/perf-dump
+  docs:
+  download:
+  content: >
+    Records per-process, per-timestep PAPI performance counter
+    values. Saves them in an HDF5 file.
