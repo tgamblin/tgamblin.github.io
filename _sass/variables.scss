@@ -18,7 +18,8 @@ $compcolor 		  : spin($basecolor, 180);
 $bordercolor    : $basecolor;
 $white          : #fff;
 $black          : #111;
-$accentcolor    : $black;
+$blue           : #003366;
+$accentcolor    : $blue;
 
 // Buttons
 $primary			: $black;
@@ -28,8 +29,8 @@ $danger				: #C64537;
 $info				  : #308cbc;
 
 // Links
-$top-nav-linkcolor  : #343434;
-$linkcolor 		    : #003366;
+$header-linkcolor   : $basecolor;
+$linkcolor 		    : $blue;
 $link-color         : $linkcolor;
 $linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited   : lighten($linkcolorhover, 20);

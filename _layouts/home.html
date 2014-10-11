@@ -40,10 +40,12 @@
     {% if site.owner.disqus-shortname and page.comments == true %}
       <section id="disqus_thread"></section><!-- /#disqus_thread -->
     {% endif %}
+  </article>
 
-    {% if !site.posts.empty %}
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
+    <div id="index">
+    <h1><a href="{{ site.url }}/posts/">Recent Posts</a></h1>
     {% for post in site.posts limit:5 %}
+    <span class="postdate"><i>{{ post.date | date: "%B %d, %Y" }}</i></span>
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
@@ -53,9 +55,7 @@
       {% endif %}
     </article>
     {% endfor %}
-    {% endif %}
-  </article>
-
+    </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

@@ -67,7 +67,7 @@ body {
 			border-bottom: 0 solid transparent;
 		}
 		a {
-            color: $top-nav-linkcolor;
+            color: $header-linkcolor;
 			display: block;
 			padding: 10px 0;
 			decoration: none;
@@ -210,6 +210,7 @@ $button-size: 1.5rem;
 	margin-top: 2em;
 	h1 {
 		margin-top: 0;
+        a { color: black; }
 	}
 	.post,
 	.page {
