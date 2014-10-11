@@ -10,7 +10,7 @@ image:
 
 I am a computer scientist in the [Center for Applied Scientific
 Computing](http://computation.llnl.gov/casc/) at [Lawrence Livermore
-National Laboratory](https://www.llnl.gov).  My reearch focuses on
+National Laboratory](https://www.llnl.gov).  My research focuses on
 scalable tools and algorithms for measuring, analyzing, visualizing,
 and understanding the massively parallel simulations that run on
 supercomputers.

@@ -5,8 +5,8 @@ modified:
 categories:
 excerpt: >
 
-  I am looking for postdocs and grad students interested in using
-  machine learning to model data-dependent and adaptive program behavior.
+  I am looking for postdocs and grad students to work on a project using
+  machine learning to model data-dependent and adaptive programs.
 
 tags: []
 image:
@@ -19,7 +19,8 @@ work on a new project using machine learning to model the performance
 of parallel applications, with a focus on data-dependent and adaptive
 algorithms.
 
-This job is part of a much larger set of efforts on performance analysis,
-tools, debugging, modeling, visualization, and other aspects of HPC.
+This job is part of a much larger set of efforts at LLNL on
+performance analysis, tools, debugging, modeling, visualization, and
+other aspects of HPC.
 
 If this sounds interesting to you, [email me!](mailto:tgamblin@llnl.gov)

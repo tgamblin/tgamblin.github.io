@@ -10,4 +10,4 @@ image:
   creditlink: http://computation.llnl.gov/computers/sequoia
 ---
 
-These are tools I've released as open source.
+Tools and libraries I've released as open source.

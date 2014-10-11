@@ -16,9 +16,10 @@
   download:
   content: >
 
-    Cram runs many small MPI jobs within a single, large MPI
-    job by virtualizing its MPI operations. Cram has been used to run
-    1.5 million concurrent MPI jobs on LLNL's Sequoia machine.
+    Cram runs many small MPI jobs within a single, large MPI job by
+    virtualizing its MPI operations. Cram has been used to run 1.5
+    million concurrent MPI jobs on LLNL's
+    [Sequoia](http://computation.llnl.gov/computers/sequoia) machine.
 
 - title: Rubik
   logo: rubik.png
@@ -29,8 +30,8 @@
   content: >
 
     Rubik generates MPI task mapping files for structured applications
-    running on machines with torus or mesh networks.  It applies structured
-    transforamtions to an application topology to generate the mappings.
+    and torus or mesh networks.  It applies transforamtions to an
+    application topology to generate the mappings.
 
 - title: Muster
   logo: muster.png
@@ -40,11 +41,11 @@
   download:
   content: >
 
-    Parallel K-medoids clustering library, used in
-    performance anddebugging tools. Implements PAM, CLARA, the <a
+    Parallel K-medoids clustering library, used in performance and
+    debugging tools. Implements PAM, CLARA, the <a
     href="http://wwwx.cs.unc.edu/~tgamblin/pubs/scalable-cluster-ics10.pdf">CAPEK</a>
     parallel clustering algorithm, and an MPI-parallel Bayesian
-    Information Criterion (BIC) implementation.
+    Information Criterion (BIC) calculation.
 
 - title: wrap.py
   logo:
@@ -92,4 +93,5 @@
   content: >
 
     Records per-process, per-timestep PAPI performance counter
-    values. Saves them in an HDF5 file.
+    values. Saves them in an HDF5 file using parallel I/O. Think of
+    this as a checkpointing library for basic performance data.
