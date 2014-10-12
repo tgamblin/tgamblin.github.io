@@ -42,8 +42,8 @@
   content: >
 
     Parallel K-medoids clustering library, used in performance and
-    debugging tools. Implements PAM, CLARA, the <a
-    href="http://wwwx.cs.unc.edu/~tgamblin/pubs/scalable-cluster-ics10.pdf">CAPEK</a>
+    debugging tools. Implements PAM, CLARA, the
+    [CAPEK](http://wwwx.cs.unc.edu/~tgamblin/pubs/scalable-cluster-ics10.pdf)
     parallel clustering algorithm, and an MPI-parallel Bayesian
     Information Criterion (BIC) calculation.
 
@@ -55,10 +55,10 @@
   download:
   content: >
 
-    Simple language for generating libraries of <a
-    href="http://www.netlib.org/utk/papers/mpi-book/node182.html">PMPI</a>
-    wrapper functions. Based on the profiling wrapper generator in <a
-    href="http://www.mcs.anl.gov/research/projects/perfvis/download/">MPE</a>
+    Simple language for generating libraries of
+    [PMPI](http://www.netlib.org/utk/papers/mpi-book/node182.html)
+    wrapper functions. Based on the profiling wrapper generator in
+    [MPE](http://www.mcs.anl.gov/research/projects/perfvis/download/)
     but with more features. Generates C and Fortran bindings.
 
 - title: Callpath
@@ -80,8 +80,8 @@
   download:
   content: >
 
-    Parallel wavelet transform and <a
-    href="http://en.wikipedia.org/wiki/Embedded_Zerotrees_of_Wavelet_transforms">EZW</a>
+    Parallel wavelet transform and
+    [EZW](http://en.wikipedia.org/wiki/Embedded_Zerotrees_of_Wavelet_transforms)
     compression library.
 
 - title: perf-dump

@@ -47,7 +47,7 @@
             <img src="{{ site.url }}/images/{{ project.logo }}"/>
           {% endif %}
 
-          {{ project.content }}<br/>
+          {{ project.content | markdownify }}<br/>
 
           {% if project.github %}
             <i class="fa fa-git-square"></i>
