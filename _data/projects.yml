@@ -1,7 +1,7 @@
 - title: Spack
   logo:
-  docs: http://scalability-llnl.github.io/spack
-  github: https://github.com/scalability-llnl/spack
+  docs: http://llnl.github.io/spack
+  github: https://github.com/llnl/spack
   content: >
 
     A flexible package manager designed to support multiple versions,
@@ -12,7 +12,7 @@
 - title: Cram
   logo: cram-logo-square.png
   link: https://computation-rnd.llnl.gov/parallel-software-development-tools/cram.php
-  github: http://github.com/scalability-llnl/cram
+  github: http://github.com/llnl/cram
   download:
   content: >
 
@@ -24,7 +24,7 @@
 - title: Rubik
   logo: rubik.png
   link:
-  github: https://github.com/scalability-llnl/rubik
+  github: https://github.com/llnl/rubik
   docs: https://computation-rnd.llnl.gov/performance-analysis-through-visualization/software/rubik/docs
   download:
   content: >
@@ -36,8 +36,8 @@
 - title: Muster
   logo: muster.png
   link:
-  github: https://github.com/scalability-llnl/muster
-  docs: https://scalability-llnl.github.io/muster
+  github: https://github.com/llnl/muster
+  docs: https://llnl.github.io/muster
   download:
   content: >
 
@@ -50,8 +50,8 @@
 - title: wrap.py
   logo:
   link:
-  github: https://github.com/scalability-llnl/wrap
-  docs: https://github.com/scalability-llnl/wrap/blob/master/examples/tutorial.w
+  github: https://github.com/llnl/wrap
+  docs: https://github.com/llnl/wrap/blob/master/examples/tutorial.w
   download:
   content: >
 
@@ -64,7 +64,7 @@
 - title: Callpath
   logo:
   link:
-  github: https://github.com/scalability-llnl/callpath
+  github: https://github.com/llnl/callpath
   docs:
   download:
   content: >
@@ -75,7 +75,7 @@
 - title: Nami
   logo:
   link:
-  github: https://github.com/scalability-llnl/nami
+  github: https://github.com/llnl/nami
   docs:
   download:
   content: >
@@ -87,7 +87,7 @@
 - title: perf-dump
   logo:
   link:
-  github: https://github.com/scalability-llnl/perf-dump
+  github: https://github.com/llnl/perf-dump
   docs:
   download:
   content: >
